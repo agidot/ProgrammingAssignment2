@@ -1,7 +1,6 @@
-## Put comments here that give an overall description of what your
-## functions do
+## These 2 functions help computing invert matrix save it in a cache
 
-## Write a short comment describing this function
+## User can save and retrieve a matrix and its inverse by using set, get, setinverse, get inverse accordingly. 
 
 makeCacheMatrix <- function(x = matrix()) {
   m <- NULL
@@ -18,7 +17,8 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## Check if a there is a matrix in a cache, if not, invert the matrix then save it in
+the cache
 
 cacheSolve <- function(x, ...) {
   ## Return a matrix that is the inverse of 'x'
